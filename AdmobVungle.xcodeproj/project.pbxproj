@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932E8F3287D54454A0B38235 /* libPods-AdmobVungle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC521D375B7815186BFA4C16 /* libPods-AdmobVungle.a */; };
+		B3A05C7B2A84978FD9C00E5C /* libPods-AdmobVungleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E570FE9ED13C45FEE02319 /* libPods-AdmobVungleTests.a */; };
+		BF78EFFB23C9FBEA00155176 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78EFFA23C9FBEA00155176 /* AppDelegate.m */; };
+		BF78EFFE23C9FBEA00155176 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78EFFD23C9FBEA00155176 /* SceneDelegate.m */; };
+		BF78F00123C9FBEA00155176 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78F00023C9FBEA00155176 /* ViewController.m */; };
+		BF78F00423C9FBEA00155176 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF78F00223C9FBEA00155176 /* Main.storyboard */; };
+		BF78F00623C9FBEB00155176 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF78F00523C9FBEB00155176 /* Assets.xcassets */; };
+		BF78F00923C9FBEB00155176 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF78F00723C9FBEB00155176 /* LaunchScreen.storyboard */; };
+		BF78F00C23C9FBEB00155176 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78F00B23C9FBEB00155176 /* main.m */; };
+		BF78F03023CA034F00155176 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = BF78F02F23CA034F00155176 /* Constant.m */; };
+		D7EC3CCC19B6F7FFEEA71282 /* libPods-AdmobVungleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1B6F160F5A8EF752EDE9F2 /* libPods-AdmobVungleUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF78F01223C9FBEB00155176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF78EFEE23C9FBEA00155176 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF78EFF523C9FBEA00155176;
+			remoteInfo = AdmobVungle;
+		};
+		BF78F01D23C9FBEB00155176 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF78EFEE23C9FBEA00155176 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF78EFF523C9FBEA00155176;
+			remoteInfo = AdmobVungle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0338FCDE19DC5A846E7056D2 /* Pods-AdmobVungleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobVungleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdmobVungleTests/Pods-AdmobVungleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E0978C643E79ECDD3C683C8 /* Pods-AdmobVungle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobVungle.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdmobVungle/Pods-AdmobVungle.release.xcconfig"; sourceTree = "<group>"; };
+		4089D239A529A27BB1AF5159 /* Pods-AdmobVungleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobVungleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdmobVungleUITests/Pods-AdmobVungleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41485DA9AAC9E1735A764BDF /* Pods-AdmobVungleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobVungleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdmobVungleUITests/Pods-AdmobVungleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48E570FE9ED13C45FEE02319 /* libPods-AdmobVungleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdmobVungleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB609D075030D570D31187A /* Pods-AdmobVungleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobVungleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdmobVungleTests/Pods-AdmobVungleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8D09897CE6630FB8DFEFA42 /* Pods-AdmobVungle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdmobVungle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdmobVungle/Pods-AdmobVungle.debug.xcconfig"; sourceTree = "<group>"; };
+		BF78EFF623C9FBEA00155176 /* AdmobVungle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdmobVungle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF78EFF923C9FBEA00155176 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF78EFFA23C9FBEA00155176 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF78EFFC23C9FBEA00155176 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BF78EFFD23C9FBEA00155176 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BF78EFFF23C9FBEA00155176 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF78F00023C9FBEA00155176 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF78F00323C9FBEA00155176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF78F00523C9FBEB00155176 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF78F00823C9FBEB00155176 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF78F00A23C9FBEB00155176 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF78F00B23C9FBEB00155176 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF78F01123C9FBEB00155176 /* AdmobVungleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdmobVungleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF78F01C23C9FBEB00155176 /* AdmobVungleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdmobVungleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF78F02E23CA034F00155176 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		BF78F02F23CA034F00155176 /* Constant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		CC521D375B7815186BFA4C16 /* libPods-AdmobVungle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdmobVungle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1B6F160F5A8EF752EDE9F2 /* libPods-AdmobVungleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdmobVungleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF78EFF323C9FBEA00155176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932E8F3287D54454A0B38235 /* libPods-AdmobVungle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78F00E23C9FBEB00155176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A05C7B2A84978FD9C00E5C /* libPods-AdmobVungleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78F01923C9FBEB00155176 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EC3CCC19B6F7FFEEA71282 /* libPods-AdmobVungleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E4198BEE95144CF407F18C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8D09897CE6630FB8DFEFA42 /* Pods-AdmobVungle.debug.xcconfig */,
+				3E0978C643E79ECDD3C683C8 /* Pods-AdmobVungle.release.xcconfig */,
+				0338FCDE19DC5A846E7056D2 /* Pods-AdmobVungleTests.debug.xcconfig */,
+				AAB609D075030D570D31187A /* Pods-AdmobVungleTests.release.xcconfig */,
+				41485DA9AAC9E1735A764BDF /* Pods-AdmobVungleUITests.debug.xcconfig */,
+				4089D239A529A27BB1AF5159 /* Pods-AdmobVungleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3E34B945DAED35A903EDCAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC521D375B7815186BFA4C16 /* libPods-AdmobVungle.a */,
+				48E570FE9ED13C45FEE02319 /* libPods-AdmobVungleTests.a */,
+				FF1B6F160F5A8EF752EDE9F2 /* libPods-AdmobVungleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF78EFED23C9FBEA00155176 = {
+			isa = PBXGroup;
+			children = (
+				BF78EFF823C9FBEA00155176 /* AdmobVungle */,
+				BF78EFF723C9FBEA00155176 /* Products */,
+				41E4198BEE95144CF407F18C /* Pods */,
+				A3E34B945DAED35A903EDCAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF78EFF723C9FBEA00155176 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF78EFF623C9FBEA00155176 /* AdmobVungle.app */,
+				BF78F01123C9FBEB00155176 /* AdmobVungleTests.xctest */,
+				BF78F01C23C9FBEB00155176 /* AdmobVungleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF78EFF823C9FBEA00155176 /* AdmobVungle */ = {
+			isa = PBXGroup;
+			children = (
+				BF78EFF923C9FBEA00155176 /* AppDelegate.h */,
+				BF78EFFA23C9FBEA00155176 /* AppDelegate.m */,
+				BF78EFFC23C9FBEA00155176 /* SceneDelegate.h */,
+				BF78EFFD23C9FBEA00155176 /* SceneDelegate.m */,
+				BF78EFFF23C9FBEA00155176 /* ViewController.h */,
+				BF78F00023C9FBEA00155176 /* ViewController.m */,
+				BF78F00223C9FBEA00155176 /* Main.storyboard */,
+				BF78F00523C9FBEB00155176 /* Assets.xcassets */,
+				BF78F00723C9FBEB00155176 /* LaunchScreen.storyboard */,
+				BF78F00A23C9FBEB00155176 /* Info.plist */,
+				BF78F00B23C9FBEB00155176 /* main.m */,
+				BF78F02E23CA034F00155176 /* Constant.h */,
+				BF78F02F23CA034F00155176 /* Constant.m */,
+			);
+			path = AdmobVungle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF78EFF523C9FBEA00155176 /* AdmobVungle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF78F02523C9FBEB00155176 /* Build configuration list for PBXNativeTarget "AdmobVungle" */;
+			buildPhases = (
+				F6CC42EB8D613AFA9BEEC174 /* [CP] Check Pods Manifest.lock */,
+				BF78EFF223C9FBEA00155176 /* Sources */,
+				BF78EFF323C9FBEA00155176 /* Frameworks */,
+				BF78EFF423C9FBEA00155176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdmobVungle;
+			productName = AdmobVungle;
+			productReference = BF78EFF623C9FBEA00155176 /* AdmobVungle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF78F01023C9FBEB00155176 /* AdmobVungleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF78F02823C9FBEB00155176 /* Build configuration list for PBXNativeTarget "AdmobVungleTests" */;
+			buildPhases = (
+				A80C700D56194295DBA0F805 /* [CP] Check Pods Manifest.lock */,
+				BF78F00D23C9FBEB00155176 /* Sources */,
+				BF78F00E23C9FBEB00155176 /* Frameworks */,
+				BF78F00F23C9FBEB00155176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF78F01323C9FBEB00155176 /* PBXTargetDependency */,
+			);
+			name = AdmobVungleTests;
+			productName = AdmobVungleTests;
+			productReference = BF78F01123C9FBEB00155176 /* AdmobVungleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF78F01B23C9FBEB00155176 /* AdmobVungleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF78F02B23C9FBEB00155176 /* Build configuration list for PBXNativeTarget "AdmobVungleUITests" */;
+			buildPhases = (
+				9654102031F0C3A63D31112B /* [CP] Check Pods Manifest.lock */,
+				BF78F01823C9FBEB00155176 /* Sources */,
+				BF78F01923C9FBEB00155176 /* Frameworks */,
+				BF78F01A23C9FBEB00155176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF78F01E23C9FBEB00155176 /* PBXTargetDependency */,
+			);
+			name = AdmobVungleUITests;
+			productName = AdmobVungleUITests;
+			productReference = BF78F01C23C9FBEB00155176 /* AdmobVungleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF78EFEE23C9FBEA00155176 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Vincent;
+				TargetAttributes = {
+					BF78EFF523C9FBEA00155176 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					BF78F01023C9FBEB00155176 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BF78EFF523C9FBEA00155176;
+					};
+					BF78F01B23C9FBEB00155176 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = BF78EFF523C9FBEA00155176;
+					};
+				};
+			};
+			buildConfigurationList = BF78EFF123C9FBEA00155176 /* Build configuration list for PBXProject "AdmobVungle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF78EFED23C9FBEA00155176;
+			productRefGroup = BF78EFF723C9FBEA00155176 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF78EFF523C9FBEA00155176 /* AdmobVungle */,
+				BF78F01023C9FBEB00155176 /* AdmobVungleTests */,
+				BF78F01B23C9FBEB00155176 /* AdmobVungleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF78EFF423C9FBEA00155176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF78F00923C9FBEB00155176 /* LaunchScreen.storyboard in Resources */,
+				BF78F00623C9FBEB00155176 /* Assets.xcassets in Resources */,
+				BF78F00423C9FBEA00155176 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78F00F23C9FBEB00155176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78F01A23C9FBEB00155176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9654102031F0C3A63D31112B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdmobVungleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80C700D56194295DBA0F805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdmobVungleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CC42EB8D613AFA9BEEC174 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdmobVungle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF78EFF223C9FBEA00155176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF78F00123C9FBEA00155176 /* ViewController.m in Sources */,
+				BF78EFFB23C9FBEA00155176 /* AppDelegate.m in Sources */,
+				BF78F00C23C9FBEB00155176 /* main.m in Sources */,
+				BF78F03023CA034F00155176 /* Constant.m in Sources */,
+				BF78EFFE23C9FBEA00155176 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78F00D23C9FBEB00155176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF78F01823C9FBEB00155176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF78F01323C9FBEB00155176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF78EFF523C9FBEA00155176 /* AdmobVungle */;
+			targetProxy = BF78F01223C9FBEB00155176 /* PBXContainerItemProxy */;
+		};
+		BF78F01E23C9FBEB00155176 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF78EFF523C9FBEA00155176 /* AdmobVungle */;
+			targetProxy = BF78F01D23C9FBEB00155176 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF78F00223C9FBEA00155176 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF78F00323C9FBEA00155176 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF78F00723C9FBEB00155176 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF78F00823C9FBEB00155176 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF78F02323C9FBEB00155176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF78F02423C9FBEB00155176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF78F02623C9FBEB00155176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D09897CE6630FB8DFEFA42 /* Pods-AdmobVungle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = AdmobVungle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.AdmobVungle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF78F02723C9FBEB00155176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0978C643E79ECDD3C683C8 /* Pods-AdmobVungle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = AdmobVungle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.AdmobVungle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF78F02923C9FBEB00155176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0338FCDE19DC5A846E7056D2 /* Pods-AdmobVungleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdmobVungleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.AdmobVungleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdmobVungle.app/AdmobVungle";
+			};
+			name = Debug;
+		};
+		BF78F02A23C9FBEB00155176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB609D075030D570D31187A /* Pods-AdmobVungleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdmobVungleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.AdmobVungleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdmobVungle.app/AdmobVungle";
+			};
+			name = Release;
+		};
+		BF78F02C23C9FBEB00155176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41485DA9AAC9E1735A764BDF /* Pods-AdmobVungleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdmobVungleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.AdmobVungleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdmobVungle;
+			};
+			name = Debug;
+		};
+		BF78F02D23C9FBEB00155176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4089D239A529A27BB1AF5159 /* Pods-AdmobVungleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AdmobVungleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vincent.AdmobVungleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdmobVungle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF78EFF123C9FBEA00155176 /* Build configuration list for PBXProject "AdmobVungle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF78F02323C9FBEB00155176 /* Debug */,
+				BF78F02423C9FBEB00155176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF78F02523C9FBEB00155176 /* Build configuration list for PBXNativeTarget "AdmobVungle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF78F02623C9FBEB00155176 /* Debug */,
+				BF78F02723C9FBEB00155176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF78F02823C9FBEB00155176 /* Build configuration list for PBXNativeTarget "AdmobVungleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF78F02923C9FBEB00155176 /* Debug */,
+				BF78F02A23C9FBEB00155176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF78F02B23C9FBEB00155176 /* Build configuration list for PBXNativeTarget "AdmobVungleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF78F02C23C9FBEB00155176 /* Debug */,
+				BF78F02D23C9FBEB00155176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF78EFEE23C9FBEA00155176 /* Project object */;
+}
